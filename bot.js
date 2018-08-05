@@ -28,7 +28,7 @@ client.on('ready', () => {
      client.user.setActivity("Type Dplay",{type: 'Playing'});
 
 });
-const prefix = "D"
+const prefix = "u"
 client.on('message', async msg => {
 	if (msg.author.bot) return undefined;
 	if (!msg.content.startsWith(prefix)) return undefined;
